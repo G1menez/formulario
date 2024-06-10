@@ -1,67 +1,117 @@
+/* css geral */
 *
 {
+    /* deixa a margem padronizada em 0 pixels */
     margin: 0;
+    /* deixa o espaçamento padronizado em 0 pixels */
     padding: 0;
+    /* define a fonte padrão como Arial */
     font-family: Arial, Helvetica, sans-serif;
 }
+/* css do id container */
 #container
 {
+    /* define o o background do id container como branco */
     background-color: rgb(226, 225, 225);
+    /* deixa a largura do id container em 900 px */
     width: 900px;
+    /* deixa a margin automatica para centralizar */
     margin: auto;
+    /* define a margem de cima como 15 pixels */
     margin-top: 15px;
+    /* define a margem de baixo como 15 pixels */
     margin-bottom: 15px;
-} 
+}
+ /* css do elemento fieldset */
 fieldset
 {
+    /* deixa o espaçamento em 10 pixels */
     padding: 10px;
+    /* deixa a margem de baixo em 50 pixels */
     margin-bottom: 50px;
-} 
+}
+ /* css da classe campo */
 .campo
 {
+    /* define o espaçamento da classe campo em 10 pixels */
     padding: 10px;
 }
+/* css do elemento label que esta dentro da classe campo */
 .campo label
 {
+    /* deixa a forma de exposição como block, assim dando uma quebra de linha após os elementos label */
     display: block;
+    /* deixa a fonte em negrito */
     font-weight: bold ;
+    /* deixa o espaçamento de baixo em 20 pixels */
     padding-bottom: 20px;
 }
+/* css do elemento legend */
 legend
 {
+    /* deixa o tamanho da fonte como 25 pixels */
     font-size:25px;
 }
+/* css dos ids github, nome, sobrenome e email, */
 #github, #nome, #sobrenome, #email
 {
+    /* deixa a largura desses ids como 500 pixels */
     width: 500px;
+    /* deixa a altura desses ids como 30pixels */
     height: 30px;
 }
+/* css da classe campo-checkbox */
 .campo-checkbox
 {
+    /* deixa a forma de exposição como block, assim dando uma quebra de linha após os elementos da classe campo-checkbox */
     display: block;
+    /* deixa o espaçamento de baixo como 20 pixels */
     padding-bottom: 20px;
+    /* deixa a fonte em negrito */
     font-weight: bold;
 }
+/* css do elemento select */
 select
 {
+    /* define a margem como 10px */
     margin-bottom: 10px;
+    /* deixa a largura do elemento select em 100px */
     width: 100px;
 }
+/* css do elemento textarea */
 textarea
 {
+    /* deixa a largura da caixa de texto em 450px */
     width: 450px;
+    /* deixa a altura da caixa de texto em 100 px */
     height: 100px;
 }
+/* css da classe botão */
 .botao
 {
+    /* deixa o background do botão como amarelo */
     background-color: yellow;
+    /* define a altura do botão como 50 px */
     height: 50px;
+    /* define a largura do botão como 150px */
     width: 150px;
+    /* deixa a borda do botão arredondado */
     border-radius: 15px 10px;
+    /* deixa a fonte em negrito */
     font-weight: bold;
+    /* deixa o tamanho da fonte do botão em 15 pixels */
     font-size: 15px;
+    /* alinha o texto do botão no centro */
     text-align: center;
+    /* margem para deixar o botão no centro da pagina */
     margin: 0 40%;
+    /* deixa a margem de baixo em 50 px */
     margin-bottom: 50px ;
     
+}
+/* css do elemento img, presente no footer e header */
+img
+{
+    /* deixa a largura das imagens do footer e header ocupando 100% do elemento pai*/
+    width: 100%;
 }
